@@ -20,7 +20,7 @@ With the following images:
 
 `/body.png`|`/eyes.png`|`/mouth.png`
 ---|---|---
-<img src="/test/fixtures/body.png" width="128">|<img src="/test/fixtures/eyes.png" width="128">|<img src="/test/fixtures/mouth.png" width="128">
+<img src="/src/sample-images/body.png" width="128">|<img src="/src/sample-images/eyes.png" width="128">|<img src="/src/sample-images/mouth.png" width="128">
 
 You can do:
 
@@ -34,7 +34,7 @@ imageMerger(['/body.png', '/eyes.png', '/mouth.png'])
 
 And that would update the `img` element to show this image:
 
-<img src="/test/fixtures/face.png" width="128">
+<img src="/src/sample-images/face.png" width="128">
 
 ### Positioning
 
@@ -52,7 +52,7 @@ imageMerger([
 
 Using the same source images as above would output this:
 
-<img src="/test/fixtures/face-custom-positions.png" width="128">
+<img src="/src/sample-images/face-custom-positions.png" width="128">
 
 ### Resize
 
@@ -77,7 +77,7 @@ imageMerger([
   // data:image/png;base64,iVBORw0KGgoAA...
 ```
 
-<img src="/test/fixtures/face-opacity.png" width="128">
+<img src="/src/sample-images/face-opacity.png" width="128">
 
 ### Dimensions
 
@@ -94,7 +94,7 @@ imageMerger(['/body.png', '/eyes.png', '/mouth.png'], {
 
 Which will look like this:
 
-<img src="/test/fixtures/face-custom-dimension.png" width="64">
+<img src="/src/sample-images/face-custom-dimension.png" width="64">
 
 ## Node.js Usage
 
