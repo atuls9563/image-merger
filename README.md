@@ -6,7 +6,9 @@ Canvas can be kind of a pain to work with sometimes, especially if you just need
 
 Images can be overlaid on top of each other and repositioned. The function returns a Promise which resolves to a base64 data URI. Supports both the browser and Node.js.
 
-This is an updated version of `merge-images` by Luke Childs with all libraries updated and multi operating system testing. I also removed `xo` as this linting caused many issues and I didn't like the way it worked. It also now works with the newest version of canvas.
+This is an updated version of `merge-images` by Luke Childs with all libraries updated and multi operating system testing.  `xo` is removed as this linting caused many issues.
+
+The major update from `merge-images` is , dynamic height of canvas based on input images actual sizes, it resize the images propotionally based on max width & height passed as option
 
 ## Install
 
